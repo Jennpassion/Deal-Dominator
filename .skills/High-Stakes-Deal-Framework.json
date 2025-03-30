@@ -1,0 +1,19 @@
+{
+  "name": "high_stakes_deals",
+  "description": "Provides a framework for structuring high-stakes deals with maximum leverage.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "deal_size": {
+        "type": "string",
+        "description": "The estimated size of the deal (e.g., six-figure, million-dollar, billion-dollar)."
+      },
+      "risk_tolerance": {
+        "type": "string",
+        "description": "The risk profile of the deal (e.g., low, moderate, high)."
+      }
+    },
+    "required": ["deal_size"]
+  },
+  "strict": true
+}
