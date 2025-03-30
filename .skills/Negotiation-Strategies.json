@@ -1,0 +1,19 @@
+{
+  "name": "negotiation_strategies",
+  "description": "Provides high-level negotiation strategies for closing deals effectively.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "deal_type": {
+        "type": "string",
+        "description": "The type of deal (e.g., real estate, sales, mergers)."
+      },
+      "opponent_profile": {
+        "type": "string",
+        "description": "The personality type of the opposing party (e.g., aggressive, analytical, emotional)."
+      }
+    },
+    "required": ["deal_type"]
+  },
+  "strict": true
+}
