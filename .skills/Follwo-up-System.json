@@ -1,0 +1,19 @@
+{
+  "name": "follow_up_system",
+  "description": "Generates follow-up messages tailored to negotiation progress.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "stage": {
+        "type": "string",
+        "description": "The stage of negotiation (e.g., first contact, post-meeting, final offer)."
+      },
+      "tone": {
+        "type": "string",
+        "description": "The desired tone of the follow-up (e.g., aggressive, persuasive, reassuring)."
+      }
+    },
+    "required": ["stage"]
+  },
+  "strict": true
+}
