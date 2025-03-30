@@ -1,0 +1,19 @@
+{
+  "name": "psychological_closing",
+  "description": "Leverages psychological tactics to increase closing success.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "buyer_type": {
+        "type": "string",
+        "description": "The psychology of the buyer (e.g., risk-averse, competitive, value-driven)."
+      },
+      "deal_urgency": {
+        "type": "string",
+        "description": "The level of urgency (e.g., immediate decision, long-term planning)."
+      }
+    },
+    "required": ["buyer_type"]
+  },
+  "strict": true
+}
