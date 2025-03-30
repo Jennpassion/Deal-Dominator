@@ -1,0 +1,19 @@
+{
+  "name": "cold_email_templates",
+  "description": "Creates high-converting cold emails for dealmaking.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "industry": {
+        "type": "string",
+        "description": "The industry or niche of the recipient (e.g., tech, finance, real estate)."
+      },
+      "goal": {
+        "type": "string",
+        "description": "The purpose of the email (e.g., introduction, setting a meeting, closing a deal)."
+      }
+    },
+    "required": ["industry", "goal"]
+  },
+  "strict": true
+}
